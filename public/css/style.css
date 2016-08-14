@@ -1,0 +1,99 @@
+body {
+  font-family: Lato;
+  margin: 0;
+}
+
+#hero {
+
+}
+
+#nameplate {
+  position: relative;
+  margin: 150 auto;
+  width: 640px;
+  height: 480px;
+  z-index: 99;
+  overflow: hidden;
+}
+
+#nameplate svg {
+  position: absolute;
+}
+
+#nameplate svg text {
+
+}
+
+#nameSvg{
+  border-right: 1px solid black;
+}
+
+
+#schoolSvg{
+  left: 150px;
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+#classSvg{
+  left: 580px;
+  border-bottom: 1px solid black;
+}
+
+#majorSvg{
+  left: 150px;
+  top: 160px;
+  border-bottom: 1px solid black;
+}
+
+#engineerSvg{
+  left: 150px;
+  top: 220px;
+  border-bottom: 1px solid black;
+}
+
+#ultimateSvg{
+  left: 150px;
+  top: 272px;
+  border-bottom: 1px solid black;
+}
+
+#kungfuSvg{
+  left: 150px;
+  top: 324px;
+  border-bottom: 1px solid black;
+}
+
+#historySvg{
+  left: 150px;
+  top: 376px;
+  border-bottom: 1px solid black;
+}
+
+#tvshowSvg{
+  left: 150px;
+  top: 428px;
+}
+
+#face{
+  position: absolute;
+  border-left: 1px solid black;
+  height: 260px;
+  width: 250px;
+  left: 390px;
+  top: 220px;
+  overflow: hidden;
+}
+
+#faceimg{
+  max-height: 100%;
+}
+
+#works {
+  margin: 40 auto;
+  padding: 0 12.5%;
+}
+
+#contact {
+
+}
