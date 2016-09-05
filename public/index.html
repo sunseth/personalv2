@@ -33,7 +33,7 @@
           <text id="nameText" x="25" y="35" fill="black" font-size="24px" transform="rotate(0 0,0)">Ultimate Frisbee'r</text>
         </svg>
         <svg height="52" width="240" id="kungfuSvg">
-          <text id="nameText" x="25" y="35" fill="black" font-size="24px" transform="rotate(0 0,0)">Kung Fu Master</text>
+          <text id="nameText" x="25" y="35" fill="black" font-size="24px" transform="rotate(0 0,0)">Meditation Master</text>
         </svg>
         <svg height="52" width="240" id="historySvg">
           <text id="nameText" x="25" y="35" fill="black" font-size="24px" transform="rotate(0 0,0)">Military Historian</text>
@@ -47,11 +47,36 @@
       </div>
     </section>
 
-    <div class="ui horizontal divider">
-      Recent Works - Work In Progress
+    <div class="ui horizontal divider" style="padding-bottom:25px">
+      Recent Works
     </div>
 
     <section id="works">
+      <div class="ui padded segment">
+        <div class="ui grid">
+          <div class="ten wide center aligned column">
+            <video width="800" height="560" controls>
+              <source src="./images/nfte.mp4" type="video/mp4">
+            </video>
+          </div>
+          <div class="six wide center aligned column">
+            <h1 class="ui header" style="padding-top:50px;padding-bottom:25px">NFTE | Network for Teaching Entrepreneurship</h1>
+            <div class="ui bulleted list">
+              <div class="item">socket io + passport js + angular js</div>
+              <div class="item">Parterned with a non profit at PayPal's Opportunity Hack to bring students and mentors together</div>
+              <div class="item">Students and mentors sign up, input what they're interested in or can teach, then get automatically matched. They can send emails and chat with one another to facilitate online learning.</div>
+               <div class="ui horizontal divider" ></div>
+              <div class="item">
+                <a target="_blank" href="http://162.243.152.57/">Click here to try.</a>
+              </div>
+              <div class="item">
+                Students should select the 'Learning' tab, while Mentors select the 'Teaching' option. You get matched on exact word matches of what you're interested in. To chat, person A opens a chat from his/her 'Profile' page, while person B finds person A on his/her dashboard. Person B opens the chat of person A.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
       <div class="ui padded segment">
         <div class="ui grid">
           <div class="ten wide center aligned column">
@@ -60,12 +85,11 @@
             </video>
           </div>
           <div class="six wide center aligned column">
-            <h1 class="ui header" style="padding-top:50px">Hermes Dashboard</h1>
+            <h1 class="ui header" style="padding-top:50px;padding-bottom:25px">PayPal | Hermes Dashboard</h1>
             <div class="ui bulleted list">
               <div class="item">three js + d3 js + odometer js</div>
-              <div class="item">visualize paypal checkout transaction volume</div>
-              <div class="item">transitions every minute to show streaming updates</div>
-              <div class="item">mock data</div>
+              <div class="item">Visualize paypal checkout transaction volume with mock data. Three js for the flowing cube and d3 js for the shifting bar graphs. Odometer js for the rotating numbers.</div>
+              <div class="item">Transitions every minute to show data across the week and the last hour. The front end listens for data from the server that streams updates each minute, then the models are repopulated. </div>
             </div>
           </div>
         </div>
@@ -73,12 +97,29 @@
 
     </section>
 
-    <div class="ui horizontal divider">
-      Contact Info - Coming Soon
+    <div class="ui horizontal divider" style="padding: 50px 0px 25px 0px">
+      Contact
     </div>
 
     <section id="contact">
-
+      <div class="ui center aligned basic segment">
+        <div class="ui padded compact segment middle" style="margin: 0 auto;">
+          <div class="ui horizontal center aligned statistics" style="padding:20px">
+            <div class="red statistic" style="margin: 0 auto;">
+              <div class="value">
+                sunseth@berkeley.edu
+              </div>
+            </div>
+            <div class="ui horizontal divider" style="padding:20px">
+            </div>
+            <div class="blue statistic" style="margin: 0 auto;">
+              <div class="value">
+                <a href='https://www.linkedin.com/in/sunseth'>Click here to find me on Linkedin</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
     <script src="./js/index.js"></script>
   </body>
